@@ -1,0 +1,19 @@
+.hero{
+    background-color: rgb(205, 186, 136);
+    height: 540px;
+    display: flex;
+    /* justify-content:space-between; */
+    /* align-items: center; */
+}
+.hero-logo{
+    padding-top:88px ;
+    padding-left: 30px;
+
+}
+.hero-article{
+    width:40%;
+    padding-top:110px ;
+    padding-bottom: 100px;
+    /* background-color: aqua; */
+    padding-left: 80px;
+}

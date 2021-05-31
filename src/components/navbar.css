@@ -1,0 +1,66 @@
+
+.shipping_banner{
+    background-color: #252525;
+    clear: both;
+    height: auto;
+    height: auto;
+    overflow: visible;
+    padding:12px 20px 8px 20px;
+    top: 0;
+    width: 100%;
+    z-index: 2;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner_content{
+    /* background-color: aquamarine; */
+    width: fit-content;
+}
+.banner_content button{
+    background: transparent;
+    color: #fffef2;
+    border: 0;
+    border-radius: 0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    cursor: pointer;
+    justify-content: space-between;
+    width: 100%;
+    font-size: 14px;
+    margin: 6px;
+    border-bottom: 1px solid #252525;
+}
+.banner_content button:hover{
+    border-bottom: 1px solid #fff;
+}
+.navbar{
+    background-color: rgb(205, 186, 136);
+    padding-left: 34px;
+    padding-right: 34px;
+    padding-bottom: 30px;
+}
+.navbar .container{
+    /* margin-top:30px; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0;
+    padding-top: 30px;
+}
+.navbar a{
+    margin: 5px 10px;
+    text-decoration: none;
+    padding-top: 10px;
+    margin-right: 25px;
+    /* padding: 34px 0px; */
+    color:#252525;
+    transition:0.5s;
+    background-color: rgb(205, 186, 136);;
+}
+.navbar a:hover{
+    border-bottom: 1px solid #fff;
+}
